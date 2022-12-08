@@ -2,6 +2,8 @@
 
 A simple S3 compatible KV operation wrapper
 
+[![Documentation](https://godoc.org/github.com/greensea/s3kv?status.svg)](http://godoc.org/github.com/greensea/s3kv)
+
 ## Usage
 
 ```go
