@@ -1,4 +1,4 @@
-module s3kv
+module github.com/greensea/s3kv
 
 go 1.19
 
