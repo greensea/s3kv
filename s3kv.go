@@ -120,8 +120,8 @@ func (s *Storage) List(key_prefix string) ([]string, error) {
 	}
 
 	ret := make([]string, len(resp.Contents))
-	for _, item := range resp.Contents {
-		ret = append(ret, string(*item.Key))
+	for k, item := range resp.Contents {
+		ret[k] = string(*item.Key)
 	}
 
 	return ret, nil
